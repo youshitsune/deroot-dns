@@ -18,4 +18,4 @@ def resolve():
         return "404"
     
 
-app.run(port=5353)
+app.run(host="0.0.0.0", port=5353)
